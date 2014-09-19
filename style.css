@@ -1,0 +1,535 @@
+/*
+Theme Name: Theme CM
+Theme URI: www.constructormetalico.com
+Description: Tema para Constructor Metalico de Colombia SAS.
+Author: Andres F. Ramirez & Jhonnatan Ramos
+Author URI: www.pendientepordefinir.com
+Version: 1.0
+
+*/
+
+/*generales*/
+
+.alingr{
+	float: right;
+}
+.alingl{
+	float: left;
+}
+
+/*header*/
+.header1{
+	background-image: url(img/constructor_metalico_inicio.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	top: 0;
+	padding-bottom: 8rem;
+}
+.header2{
+	background-image: url(img/constructor_metalico_servicios.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	top: 0;
+	padding-bottom: 8rem;
+}
+.header3{
+	background-image: url(img/constructor_metalico_proyectos.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	top: 0;
+	padding-bottom: 8rem;
+}
+	.amarillo{
+		left: 15px;
+		z-index: 998;
+		position: absolute;
+		height: 80px;
+		width: 7px;
+		background: #ffbf00;
+	}
+	.logo{
+		width: 170px;
+	}
+	.header-titulo{
+		font-size: 7em;
+		margin:2em 0 0 0;
+		background: rgba(0,0,0,0.4);
+	}
+	.header-text1{
+		float: right;
+		font-family:'Source Sans Pro', sans-serif;
+		margin:0.2em 0 0.1em 0;
+		font-size: 1em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: 700;
+		font-style: italic;
+	}
+	.header-text2{
+		border-top: solid white 2px;
+		font-family: 'Source Sans Pro', sans-serif;
+		margin: 0 0 0.3em 0;
+		font-size: 0.6em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: lighter;
+		font-style: italic;
+	}
+
+/*section-block1-*/
+
+.block1-text{	
+	margin:2em 0 0.5em; 
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color: black;
+	font-size: 3em;
+	line-height: 1em;
+	font-style: italic;
+	font-weight: 200;
+}
+.block12-text{
+	margin:2em 0em; 
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	line-height: 1em;
+	font-style: italic;
+	font-weight: 200;
+}
+.block1-boton{
+	text-align: center;
+	margin:0 auto 4em;
+	font-size: 1em;
+	padding: 1em;
+	color: #292929;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #ffbf00;
+	font-weight: 600;
+	width: 100px;
+}
+.block12{
+	background: #292929;
+	color: white;
+}
+.block13{
+	margin: 3em 0;
+}
+.block13-item{
+	margin-bottom: 2em;
+}
+.block13-text{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	font-weight: 200;
+	line-height: 1em;
+	color: #292929;
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+.nombre{
+	line-height: 1em;
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2em;
+	font-style: italic;	
+}
+.tipo{
+	line-height: 1em;
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.5em;
+	font-style: italic;	
+}
+.ubicacion{
+	line-height: 1em;
+	margin:0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1em;
+	font-style: italic;	
+}
+
+
+/*section-block2-*/
+
+.block2{
+	display: none;
+	padding: 2em 0;
+	background: #f0f0e1;
+}
+.block22{
+	padding: 3em 0;
+}
+.img-block22{
+	position: relative;
+	top:4em;
+}
+.block22-images{
+	padding-bottom: 2em;
+}
+.uno, .dos, .tres, .cuatro{
+	margin-bottom: 1em;
+	}
+.block2-columnas{
+	vertical-align: top;
+	display: inline-block;
+}
+.block2-tittle{
+	margin-top: 1em;
+	line-height: 1em;
+	text-align: left;
+	font-size: 2.5em;
+	font-weight: 900;
+	font-style: italic;
+}
+.block2-text{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.25em;
+	text-align: left;
+}
+
+
+/*block3*/
+.block32{
+	background-image: url(img/imagen6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	top: 0;
+	color: white;
+}
+.block32-contenedor{
+	padding: 3em 0;
+	text-align: center;
+}
+.block32-text{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 1.25em;
+	text-align: left;
+}
+.block32-tittle{
+	margin-bottom: 1em;
+	line-height: 1em;
+	text-align: left;
+	font-size: 2.5em;
+	font-weight: 900;
+	font-style: italic;
+}
+
+/*footer*/
+
+.Footer{
+	text-align: center;
+}
+#boton{
+	margin: 0;
+}
+.Footer-contact{
+	width: 100%;
+	height:100px;
+	background: #ffbf00;
+	line-height: 100px;
+	font-size: 22px;
+	font-weight: 400;
+}
+.Footer-contact{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #292929;
+}
+.Footer-list{
+	display: none;
+	width: 100%;
+	background: #292929;
+	color: white;
+}
+.formulario{
+	position: relative;
+	margin: 0 auto;
+	padding: 3em;
+
+	-webkit-transition:.5s;
+	-ms-transition:.5s;	
+	-mz-transition:.5s;	
+	-o-transition:.5s;	
+}
+.formulario input{
+	padding: 1em;
+}
+
+/*caja de luz*/
+
+.Lightbox{
+	overflow-y:scroll;
+	display: none;
+	z-index: 999;
+	padding: 3em 0;
+	position: fixed;
+    top:0; 
+    left:0; 
+    width:100%; 
+    height:100%; 
+    background: rgba(0,0,0,0.8); 
+    text-align:center;
+}
+.lb-img{
+	margin-bottom: 2em;
+}
+.lb-text{
+	text-align: left;
+}
+.lb-titulo{
+	color: white;
+	font-size: 2em;
+	font-weight: 600;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	line-height: 1em;
+}
+.lb-descripcion{
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	line-height: 1em;
+}
+.lb-subtitulo2, .lb-subtitulo{
+	color: white;
+	font-size: 1.5em;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	line-height: 1em;
+}
+.mini{
+	width: 100px;
+	margin: 0.5em 0.2em 0em 0em;
+	border-radius: 50%;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+}
+.mini:hover{
+	border: solid 5px #ffbf00;
+}
+.cerrar-boton{
+	text-align: center;
+	margin:0 auto 0.5em;
+	font-size: 1em;
+	padding: 1em;
+	color: #292929;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #ffbf00;
+	font-weight: 600;
+	width: 100px;
+}
+----------------------------------------------------------
+
+/*pagina de error*/
+.block-error{
+	
+}
+.texto-error{
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1em;
+	text-align: center;
+	font-weight: 200;
+	font-size: 4em;
+	font-style: italic;
+	color: #292929;
+}
+.texto-error1{
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1em;
+	text-align: center;
+	font-weight: 800;
+	font-size: 6em;
+	font-style: italic;
+	color: #292929;
+}
+.texto-error2{
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1em;
+	background: #ffbf00;
+	text-align: center;
+	font-weight: 200;
+	font-size: 2em;
+	font-style: italic;
+	color: #292929;
+	padding: 1em;
+}
+.img-error{
+	margin-top: 7em;
+}
+
+--------------------------------------------------------------------------------
+/*mediaqueries*/
+@media (max-width: 1201px) {
+	.header-text1{
+		margin:2em 0 0.3em 0;
+		font-size: 1em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: 700;
+		font-style: italic;
+	}
+	.header-text2{
+		margin-bottom: 2.5em;
+		font-size: 0.6em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: lighter;
+		font-style: italic;
+	}
+	.img-error{
+		width: 250px;
+	}
+}
+@media (max-width: 1200px) {
+	.header-text1{
+		margin:0.5em 0 0.3em 0;
+		font-size: 1em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: 700;
+		font-style: italic;
+	}
+	.header-text2{
+		margin-bottom: 0.5em;
+		font-size: 0.6em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: lighter;
+		font-style: italic;
+	}
+}
+@media (max-width: 1000px) {
+	.alingr{
+		float: none;
+		margin: 0 auto;
+	}
+	.header-titulo{
+		margin:1em 0 0 0;
+	}
+  .header-text1{
+  	margin-top: 0.5em;
+  	margin-bottom: 0.3em;
+  	font-size: 1em;
+  	color: white;
+  	line-height: 0.8em;
+  	text-align: center;
+  	font-weight: 700;
+  	font-style: italic;
+  }
+  .header-text2{
+  	margin-bottom: 0.5em;
+  	font-size: 0.6em;
+  	color: white;
+  	line-height: 1em;
+  	text-align: center;
+  	font-weight: lighter;
+  	font-style: italic;
+  }
+  .block1-text{	
+  	font-size: 2em;
+  	font-weight: 200;
+  }
+  .block12-text{	
+  	font-size: 2em;
+  	font-weight: 200;
+  }
+}
+@media (max-width: 683px) {
+	.alingr{
+		float: none;
+		margin: 0 auto;
+	}
+	.header-titulo{
+		margin:0.6em 0 0 0;
+	}
+  .header-text1{
+  	margin-top: 0.5em;
+  	margin-bottom: 0.3em;
+  	font-size: 0.65em;
+  	color: white;
+  	line-height: 0.8em;
+  	text-align: center;
+  	font-weight: 700;
+  	font-style: italic;
+  }
+  .header-text2{
+  	margin-bottom: 0.5em;
+  	font-size: 0.4em;
+  	color: white;
+  	line-height: 1em;
+  	text-align: center;
+  	font-weight: lighter;
+  	font-style: italic;
+  }  
+}
+@media (max-width: 450px) {
+	header{
+		background-image: url(img/imagen1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		top: 0;
+	}
+	.alingr{
+		float: none;
+		margin: 0 auto;
+	}
+  .header-text1{
+  	margin-top: 0.5em;
+  	margin-bottom: 0.3em;
+  	font-size: 0.4em;
+  	color: white;
+  	line-height: 1em;
+  	text-align: center;
+  	font-weight: 700;
+  	font-style: italic;
+  }
+  .header-text2{
+  	margin-bottom: 1em;
+  	font-size: 0.2em;
+  	color: white;
+  	line-height: 1em;
+  	text-align: center;
+  	font-weight: lighter;
+  	font-style: italic;
+  }
+  .block1-text{	
+  	font-size: 1.5em;
+  	font-weight: 200;
+  }
+  .block12-text{	
+  	font-size: 1.5em;
+  	font-weight: 200;
+  }
+    .block2-columnas{
+    display: block;
+}
+	.texto-error{
+		font-size: 2em;
+	}
+	.texto-error1{
+		font-size: 3em;
+	}
+	.dos, .tres, .cuatro{
+		display: none;
+		}
+	.block22-images{
+	padding-bottom: 0em;
+}	
+}	

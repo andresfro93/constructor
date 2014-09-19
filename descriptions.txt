@@ -1,0 +1,10 @@
+descripciones -constructor metalico-
+
+inicio: -titulo: Constructor metálico de colombia s.a.s-
+Ingenieros especializados en el diseño, fabricación y montaje de estructuras de acero usando como base claculos y análisis de elementos finitos.
+
+servicios: -titulo: Servicios de diseño, y fabrcación de estructuras metalicas-
+Nos encargamos de proyectos de calculo y analisis estructural, fabricación de estructuras en acero entre otros.
+
+Proyectos: -titulo: Portafolio de proyectos estructurales en Colombia-
+Un vistazo a algunos de nuestros proyectos concluidos con profesionalismo, seguridad, y el sello de el Constructor Metálico de Colombia s.a.s

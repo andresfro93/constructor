@@ -1,0 +1,343 @@
+/*
+Theme Name: Theme CM
+Theme URI: www.constructormetalico.com
+Description: Tema para Constructor Metalico de Colombia SAS.
+Author: Andres F. Ramirez & Jhonnatan Ramos
+Author URI: www.pendientepordefinir.com
+Version: 1.0
+
+*/
+
+/*generales*/
+
+.alingr{
+	float: right;
+}
+.alingl{
+	float: left;
+}
+
+/*header*/
+.header1{
+	background-image: url(img/imagen1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	top: 0;
+}
+.header2{
+	background-image: url(img/imagen3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	top: 0;
+}
+	.amarillo{
+		left: 15px;
+		z-index: 999;
+		position: absolute;
+		height: 80px;
+		width: 7px;
+		background: #ffbf00;
+	}
+	.logo{
+		width: 170px;
+	}
+	.header-text1{
+		float: right;
+		font-family:'Source Sans Pro', sans-serif;
+		margin:2em 0 0.3em 0;
+		font-size: 7em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: 700;
+		font-style: italic;
+	}
+	.header-text2{
+		border-top: solid white 2px;
+		font-family: 'Source Sans Pro', sans-serif;
+		margin-bottom: 2.5em;
+		font-size: 4em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: lighter;
+		font-style: italic;
+	}
+
+/*section-block1-*/
+
+.block1-text{	
+	margin:2em 0 0.5em; 
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color: black;
+	font-size: 3em;
+	line-height: 1em;
+	font-style: italic;
+	font-weight: 200;
+}
+.block12-text{
+	margin:2em 0em; 
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 3em;
+	line-height: 1em;
+	font-style: italic;
+	font-weight: 200;
+}
+.block1-boton{
+	text-align: center;
+	margin:0 auto 4em;
+	font-size: 1em;
+	padding: 1em;
+	color: #292929;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #ffbf00;
+	font-weight: 600;
+	width: 100px;
+}
+.block12{
+	background: #292929;
+	color: white;
+}
+
+/*section-block2-*/
+
+.block2{
+	display: none;
+	padding: 2em 0;
+	background: #f0f0e1;
+}
+.block22{
+	padding: 3em 0;
+}
+.img-block22{
+	position: relative;
+	top:4em;
+}
+.block22-images{
+	padding-bottom: 4em;
+}
+.block2-columnas{
+	vertical-align: top;
+	display: inline-block;
+}
+.block2-tittle{
+	line-height: 1em;
+	text-align: left;
+	font-size: 2.5em;
+	font-weight: 900;
+	font-style: italic;
+}
+.block2-text{
+	text-align: left;
+}
+
+
+/*block3*/
+.block32{
+	background-image: url(img/imagen6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	top: 0;
+	color: white;
+}
+.block32-contenedor{
+	text-align: center;
+}
+.block32-text{
+	text-align: left;
+}
+
+/*footer*/
+
+.Footer{
+	text-align: center;
+}
+#boton{
+	margin: 0;
+}
+.Footer-contact{
+	width: 100%;
+	height:100px;
+	background: #ffbf00;
+	line-height: 100px;
+	font-size: 22px;
+	font-weight: 400;
+}
+.Footer-contact{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #292929;
+}
+.Footer-list{
+	display: none;
+	width: 100%;
+	background: #292929;
+	color: white;
+}
+.formulario{
+	position: relative;
+	margin: 0 auto;
+	padding: 3em;
+
+	-webkit-transition:.5s;
+	-ms-transition:.5s;	
+	-mz-transition:.5s;	
+	-o-transition:.5s;	
+}
+.formulario input{
+	padding: 1em;
+}
+
+--------------------------------------------------------------------------------
+/*mediaqueries*/
+@media (max-width: 1201px) {
+	.header-text1{
+		margin:2em 0 0.3em 0;
+		font-size: 10em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: 700;
+		font-style: italic;
+	}
+	.header-text2{
+		margin-bottom: 2.5em;
+		font-size: 2.5em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: lighter;
+		font-style: italic;
+	}
+}
+@media (max-width: 1200px) {
+	.header-text1{
+		margin:2em 0 0.3em 0;
+		font-size: 5em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: 700;
+		font-style: italic;
+	}
+	.header-text2{
+		margin-bottom: 2.5em;
+		font-size: 2.5em;
+		color: white;
+		line-height: 0.8em;
+		text-align: right;
+		font-weight: lighter;
+		font-style: italic;
+	}
+}
+@media (max-width: 1000px) {
+	.alingr{
+		float: none;
+		margin: 0 auto;
+	}
+  .header-text1{
+  	margin-top: 2em;
+  	margin-bottom: 0.3em;
+  	font-size: 3.5em;
+  	color: white;
+  	line-height: 0.8em;
+  	text-align: center;
+  	font-weight: 700;
+  	font-style: italic;
+  }
+  .header-text2{
+  	margin-bottom: 2em;
+  	font-size: 2em;
+  	color: white;
+  	line-height: 1em;
+  	text-align: center;
+  	font-weight: lighter;
+  	font-style: italic;
+  }
+  .block1-text{	
+  	font-size: 2em;
+  	font-weight: 200;
+  }
+  .block12-text{	
+  	font-size: 2em;
+  	font-weight: 200;
+  }
+}
+@media (max-width: 683px) {
+	.alingr{
+		float: none;
+		margin: 0 auto;
+	}
+  .header-text1{
+  	margin-top: 2em;
+  	margin-bottom: 0.3em;
+  	font-size: 3em;
+  	color: white;
+  	line-height: 0.8em;
+  	text-align: center;
+  	font-weight: 700;
+  	font-style: italic;
+  }
+  .header-text2{
+  	margin-bottom: 2em;
+  	font-size: 1.5em;
+  	color: white;
+  	line-height: 1em;
+  	text-align: center;
+  	font-weight: lighter;
+  	font-style: italic;
+  }  
+}
+@media (max-width: 450px) {
+	header{
+		background-image: url(img/imagen1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		top: 0;
+	}
+	.alingr{
+		float: none;
+		margin: 0 auto;
+	}
+  .header-text1{
+  	margin-top: 2em;
+  	margin-bottom: 0.3em;
+  	font-size: 2em;
+  	color: white;
+  	line-height: 1em;
+  	text-align: center;
+  	font-weight: 700;
+  	font-style: italic;
+  }
+  .header-text2{
+  	margin-bottom: 2em;
+  	font-size: 1em;
+  	color: white;
+  	line-height: 1em;
+  	text-align: center;
+  	font-weight: lighter;
+  	font-style: italic;
+  }
+  .block1-text{	
+  	font-size: 1.5em;
+  	font-weight: 200;
+  }
+  .block12-text{	
+  	font-size: 1.5em;
+  	font-weight: 200;
+  }
+    .block2-columnas{
+    display: block;
+}
+}
+@media (max-width: 783px){
+	.dos, .tres, .cuatro{
+		display: none;
+	}
+}

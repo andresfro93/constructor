@@ -1,0 +1,65 @@
+-----------------------------------------
+08:59 p.m. 01/09/2014
+-----------------------------------------
+
+constructor metalico
+
+base de datos --
+usuario con permisos total
+subdominio
+wordpress
+	index.php
+	style.css
+	header.php
+	footer.php
+	functions.php
+--------------------------------------------------------------------------------------------
+
+subdominio: prueba.constructormetalico.com
+
+bd: cmdatabase 
+user: cmdatabase 
+pass: #G^*aZ^,aoEM
+
+User wp: cmwp
+pass: sFQ72uAO3mA6
+
+ftp.prueba.constructormetalico.com
+user: constructormetalicoc
+pass: 852532-Config
+
+------------------------------------------------------------
+02/09/2014
+
+Optimizar contenido
+convertir - convertir estructura - (php): (index,header,footer - andres),(functions - Jhonatan)
+Página de error (php).
+
+----------------------------------------------------------------
+03-04/09/2014
+
+Desarrollo panel administrativo!!! -BD- (backend)
+
+----------------------------------------------------------------
+05/09/2014
+
+Inicio desarrollo Fronted.
+
+
+
+
+-------------------------------------------------------------------------------
+
+semana 3:
+Estrategia digital
+optimizar contenido:
+
+titulos
+url
+descripciones
+keywords
+h1
+textos
+imagenes alt
+imagenes (tamaño archivos)
+densidad de keywords en contenido
